@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #1c1c1c;
+    /* Dark gray background */
+    color: #ddd;
+    /* Light gray text */
+    transition: background 0.3s, color 0.3s;
+}
+
+body.light-mode {
+    background: #f9f9f9;
+    /* Light background */
+    color: #333;
+    /* Dark text */
+}
+
+header {
+    background: rgba(28, 28, 28, 0.9);
+    /* Dark gray background for header */
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+body.light-mode header {
+    background: rgba(249, 249, 249, 0.9);
+    /* Light background for header */
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body.light-mode nav ul li a {
+    color: #333;
+}
+
+#mode-switch {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+body.light-mode #mode-switch {
+    color: #333;
+}
+
+section {
+    padding: 5rem 1rem 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #fff;
+}
+
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 4rem;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.project h3 {
+    color: #fff;
+}
+
+body.light-mode .project h3 {
+    color: #333;
+}
+
+.project a {
+    color: rgb(0, 251, 54);
+    text-decoration: none;
+}
+
+footer {
+    background: rgba(28, 28, 28, 0.9);
+    /* Dark gray background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+body.light-mode footer {
+    background: rgba(249, 249, 249, 0.9);
+    /* Light background for footer */
+    color: #333;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: rgb(0, 251, 54);
+}
+
+body.light-mode .social-links a {
+    color: #333;
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 6rem 2rem 3rem;
+    }
+
+    .project {
+        text-align: center;
+        margin: 0 auto;
+        /* Center horizontally */
+        max-width: 600px;
+        /* Optional: limit the width */
+    }
+}
+
+.tweet-list {
+    text-align: center;
+    margin: 0 auto;
+    /* Center horizontally */
+    max-width: 600px;
+    /* Optional: limit the width */
+}
+
+#tweets {
+    text-align: center;
+    padding: 5rem 1rem 2rem;
+}
+
+#tweets h2 {
+    text-align: center;
+    color: #fff;
+}
+
+body.light-mode #tweets h2 {
+    color: #333;
+}
+
+.tweet-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.twitter-timeline {
+    width: 100% !important;
+    max-width: 600px;
+}
