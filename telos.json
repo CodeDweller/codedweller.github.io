@@ -4,7 +4,6 @@
         "candidate_name": "Primarch Technologies",
         "website": "https://primarch.xyz/",
         "email": "primarchtech@gmail.com",
-        "phone": "+381643162458",
         "location": {
             "name": "Belgrade",
             "country": "Serbia",
@@ -12,10 +11,7 @@
             "longitude": 20.4612
         },
         "social": {
-            "github": "sh3ll3x3c",
-            "telegram": "https://t.me/SkyLunat1c",
-            "twitter": "@Sky_lunat1c",
-            "linkedin": "https://www.linkedin.com/in/ljubi%C5%A1a-isakovi%C4%87-28aba891/"
+            "twitter": "@VairoseanBP"
         }
     },
     "nodes": [
